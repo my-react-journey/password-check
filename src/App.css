@@ -15,9 +15,9 @@ html {
 	position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
   }
 }
 
