@@ -13,7 +13,7 @@ function PasswordInput() {
         let enteredPassword = inputRef.current.value
         setPassword(enteredPassword)
 
-        if(enteredPassword.length == 0) {
+        if(enteredPassword.length === 0) {
             setSpanClass("passwordStrength")
             setSpanText("Please type a password...")
             return
